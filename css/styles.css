@@ -668,12 +668,7 @@ body {
 .comment-form-field-wrapper{
   margin-bottom: 16px;
 }
-.contact-form-mesage::placeholder {
-  padding-top: 8px;
-  font-style: normal;
-  
-  
-}
+
 .policy-text {
   font-style: normal;
   font-size: 12px;
@@ -681,11 +676,35 @@ body {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
+.modal-checkbox-wrapper{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99; 
 
+}
 
 .contact-form-own-checkbox {
+  margin-bottom: 24px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+}
+.modal-checkbox-wrapper {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--modal-desc);
+}
+.modal-checkbox-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #2e2f42;
+    border-radius: 2px;
+    margin-right: 8px;
 }
 .contact-form-submit {
   margin: auto;
