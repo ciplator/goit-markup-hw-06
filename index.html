@@ -646,12 +646,13 @@
             </div>
           </div>
           <div class="contact-form-field-wrapper">
-            <label for="user-name" class="contact-form-field-desc">Phone</label>
+            <label for="user-tel" class="contact-form-field-desc">Phone</label>
             <div class="contct-form-input-wrapper">
               <input
                 class="contact-form-input contact-form-field-wrapper"
                 type="tel"
-                name="user_tel"
+                id="user-tel"
+                name="user-tel"
                 required
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
                 title="xxx-xxx-xx-xx"
@@ -690,8 +691,9 @@
             </div>
           </div>
           <div class="comment-form-field-wrapper">
-            <label for="user-comment" class="contact-form-field-desc">Comment</label>
+            <label  class="contact-form-field-desc">Comment</label>
             <textarea
+            for="user-comment"
               class="contact-form-mesage"
               name="user-mesage"
               placeholder="Text input"
