@@ -601,6 +601,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  color: var();
   margin-bottom: 4px;
   
 
@@ -670,6 +671,7 @@ body {
 }
 .comment-form-field-wrapper {
   margin-bottom: 24px;
+
 }
 
 .policy-text {
@@ -713,6 +715,9 @@ body {
   fill: #ffffff;
   border: none;
   border-color: #404bbf;
+}
+.contact-form-chekbox-wrapper{
+  margin-bottom: 24px;
 }
 
 .contact-form-submit {
