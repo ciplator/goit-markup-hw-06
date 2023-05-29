@@ -674,9 +674,11 @@
             <div class="contct-form-input-wrapper">
               <input
                 class="contact-form-input contact-form-field-wrapper"
-                type="email"
+                type="text"
+                id="user-email"
                 name="user-email"
                 required
+                pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄʼ]+"
               /><svg
                 class="contact-icon-svg"
                 aria-label="icon email"
@@ -693,13 +695,12 @@
           <div class="comment-form-field-wrapper ">
             <label for="user-comment" class="contact-form-field-desc">Comment</label>
             <textarea
-            
+              name="user-comment"
               class="contact-form-mesage"
               name="user-mesage"
               placeholder="Text input"
               id="user-comment"
-              name="user-comment"
-            ></textarea>
+              ></textarea>
           </div>
           <div class="contact-form-chekbox-wrapper">
             <input
